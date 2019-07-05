@@ -40,7 +40,7 @@ Example:
 - To search for a movie by title, type movie-this "MOVIE_TITLE" (must be in qutoes) after node liri.js
 
 Example: 
-![Image of movie response](https://raw.githubusercontent.com/Mrrwmix/liri-node-app/master/images/movie.PNG)
+![Image of movie response](https://github.com/Mrrwmix/liri-node-app/blob/master/images/movie.png?raw=true)
 
 ### do-what-it-says
 
@@ -48,7 +48,7 @@ Example:
 
 Example:
 Here is the text file already populated with a command and search term, comma separated.
-![Image of random.txt](https://raw.githubusercontent.com/Mrrwmix/liri-node-app/master/images/randomtxt.PNG)
+![Image of random.txt](https://github.com/Mrrwmix/liri-node-app/blob/master/images/randomtxt.png?raw=trueG)
 
 Since it's a spotify-this-song command, it tells the node app to search for "I Want It That Way" on Spotify. 
-![Image of do-what-it-says response](https://raw.githubusercontent.com/Mrrwmix/liri-node-app/master/images/dowhatitsays.PNG)
+![Image of do-what-it-says response](https://github.com/Mrrwmix/liri-node-app/blob/master/images/dowhatitsays.png?raw=true)
