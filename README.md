@@ -33,7 +33,7 @@ Example:
 - To search for a song by title, type spotify-this-song "SONG_TITLE" (must be in quotes) after node liri.js
 
 Example: 
-![Image of spotify response](https://raw.githubusercontent.com/Mrrwmix/liri-node-app/master/images/song.PNG)
+![Image of spotify response](https://github.com/Mrrwmix/liri-node-app/blob/master/images/song.png)
 
 ### movie-this
 
