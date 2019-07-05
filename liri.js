@@ -1,4 +1,5 @@
 require("dotenv").config();
+const fs = require("fs");
 const moment = require("moment");
 var keys = require("./keys.js");
 var Spotify = require("node-spotify-api");
@@ -17,16 +18,32 @@ switch (command) {
     case 'movie-this':
         movie(process.argv[3]);
         break;
+    case 'do-what-it-says':
+        readFile();
+        break;
     default:
         break;
 }
 
 function concert(band) {
-    console.log(band);
+    band = band.split(' ').join('+');
+    var url = 'https://rest.bandsintown.com/artists/' + band + '/events?app_id=codingbootcamp';
+    axios.get(url).then(
+        function(response){
+            console.log(response.data.length);
+            if (response.data.length == 0){
+                return console.log('There are no upcoming concerts for ' + band.split('+').join(' ') + '.');
+            }
+            for (var i = 0; i < response.data.length; i++){
+                console.log(response.data[i].venue.name + ' in ' + response.data[i].venue.city + ', ' + response.data[i].venue.region + ', ' + response.data[i].venue.country + ' on ' + moment(response.data[i].datetime).format('MM/DD/YYYY') + '.');
+            }
+        })
+    .catch(function(err){
+        console.log(err);
+    })
 }
 
 function song(title) {
-    console.log(title);
     if (title == '' || title == null){
         console.log('Ace of Base - The Sign');
         return console.log('https://open.spotify.com/track/0hrBpAOgrt8RXigk83LLNE');
@@ -47,4 +64,8 @@ function song(title) {
 
 function movie(name) {
     console.log(name);
+}
+
+function readFile() {
+
 }
