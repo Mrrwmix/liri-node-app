@@ -25,7 +25,7 @@ SPOTIFY_SECRET=YOUR_SECRET_HERE
 
 - To search for a band's upcoming concert, type concert-this "BAND_NAME_HERE" (must be in quotes) after node liri.js
 
-Example:
+- Example:
 ![Image of concert response](https://raw.githubusercontent.com/Mrrwmix/liri-node-app/master/images/concert.png)
 
 ### spotify-this-song
@@ -39,16 +39,22 @@ Example:
 
 - To search for a movie by title, type movie-this "MOVIE_TITLE" (must be in qutoes) after node liri.js
 
-Example: 
+- Example: 
 ![Image of movie response](https://github.com/Mrrwmix/liri-node-app/blob/master/images/movie.png?raw=true)
 
 ### do-what-it-says
 
 - This option takes a command from the random.txt file and runs one of the previous commands based on what's in the txt file. If your text file is set up correctly, type node liri.js do-what-it-says
 
-Example:
+- Example:
 Here is the text file already populated with a command and search term, comma separated.
 ![Image of random.txt](https://github.com/Mrrwmix/liri-node-app/blob/master/images/randomtxt.png?raw=trueG)
 
-Since it's a spotify-this-song command, it tells the node app to search for "I Want It That Way" on Spotify. 
+- Since it's a spotify-this-song command, it tells the node app to search for "I Want It That Way" on Spotify. 
 ![Image of do-what-it-says response](https://github.com/Mrrwmix/liri-node-app/blob/master/images/dowhatitsays.png?raw=true)
+
+## Logging
+
+- Each command that generates a response from an API gets the JSON response recorded in the log.txt file. 
+- Example:
+![Image of logging](https://github.com/Mrrwmix/liri-node-app/blob/master/images/log.png?raw=true)
