@@ -13,7 +13,7 @@ The app uses 4 node packages: axios, dotenv, moment, and node-spotify-api. It al
 1. Make sure you have a Spotify API ID and secret. 
 2. Place both the ID and Secret in a file called ".env" in this app's root folder, like so:
 
-# Spotify API keys
+\# Spotify API keys
 
 SPOTIFY_ID=YOUR_ID_HERE
 SPOTIFY_SECRET=YOUR_SECRET_HERE 
