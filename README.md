@@ -26,21 +26,21 @@ SPOTIFY_SECRET=YOUR_SECRET_HERE
 - To search for a band's upcoming concert, type concert-this "BAND_NAME_HERE" (must be in quotes) after node liri.js
 
 Example:
-![Image of concert response](./images/concert.PNG)
+![Image of concert response](https://raw.githubusercontent.com/Mrrwmix/liri-node-app/master/images/concert.png)
 
 ### spotify-this-song
 
 - To search for a song by title, type spotify-this-song "SONG_TITLE" (must be in quotes) after node liri.js
 
 Example: 
-![Image of spotify response](./images/song.PNG)
+![Image of spotify response](https://raw.githubusercontent.com/Mrrwmix/liri-node-app/master/images/song.PNG)
 
 ### movie-this
 
 - To search for a movie by title, type movie-this "MOVIE_TITLE" (must be in qutoes) after node liri.js
 
 Example: 
-![Image of movie response](./images/movie.PNG)
+![Image of movie response](https://raw.githubusercontent.com/Mrrwmix/liri-node-app/master/images/movie.PNG)
 
 ### do-what-it-says
 
@@ -48,7 +48,7 @@ Example:
 
 Example:
 Here is the text file already populated with a command and search term, comma separated.
-![Image of random.txt](./images/randomtxt.PNG)
+![Image of random.txt](https://raw.githubusercontent.com/Mrrwmix/liri-node-app/master/images/randomtxt.PNG)
 
 Since it's a spotify-this-song command, it tells the node app to search for "I Want It That Way" on Spotify. 
-![Image of do-what-it-says response](./images/dowhatitsays.PNG)
+![Image of do-what-it-says response](https://raw.githubusercontent.com/Mrrwmix/liri-node-app/master/images/dowhatitsays.PNG)
