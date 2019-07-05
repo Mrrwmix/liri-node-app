@@ -32,8 +32,8 @@ SPOTIFY_SECRET=YOUR_SECRET_HERE
 
 - To search for a song by title, type spotify-this-song "SONG_TITLE" (must be in quotes) after node liri.js
 
-Example: 
-![Image of spotify response](https://github.com/Mrrwmix/liri-node-app/blob/master/images/song.png)
+- Example: 
+![Image of spotify response](https://github.com/Mrrwmix/liri-node-app/blob/master/images/song.png?raw=true)
 
 ### movie-this
 
